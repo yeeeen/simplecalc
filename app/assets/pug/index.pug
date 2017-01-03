@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    block title
+      title Just a very simple calculator
+      link(rel='stylesheet', href='../css/app.css')
+      
+  body
+  
+    div#calculator
+        // screen and clear key
+        div.top
+            span.clear C
+            div.screen
+        
+        div.keys
+            span.key 7
+            span.key 8
+            span.key 9 
+            span.key.operator +
+            span.key 4
+            span.key 5
+            span.key 6
+            span.key.operator -
+            span.key 1
+            span.key 2
+            span.key 3
+            span.key.operator /
+            span.key 0
+            span.key .
+            span.equals =
+            span.operator.exp ^
+            span.operator.multiply x
+            
+        div.keycode
+    
+    script(type='text/javascript', src='../js/app.js')
+            
